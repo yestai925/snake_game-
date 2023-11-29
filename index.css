@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: rgb(233, 228, 228);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  border: 1px solid white;
+}
+p {
+  margin: 8px 0;
+}
+
+.score-block {
+  color: white;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+#score {
+  color: orange;
+}
+
+#max-score {
+  color: plum;
+}
+
+.board {
+  border: 1px solid white;
+}

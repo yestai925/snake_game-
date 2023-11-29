@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Snake Game</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="snake.js"></script>
+
+    </head>
+    <body>
+      <audio id="backgroundMusic" loop>
+        <source src="./Ripples.mp3 " type="audio/mpeg">
+    </audio>
+    <audio id="eatSound">
+      <source src="food.mp3" type="audio/mpeg">
+    </audio>
+        <h1>Snake</h1>
+        <div class="score-block"></div>
+        <p>Score: <span id="score">0</span></p>
+        <p>Max Score: <span id="max-score">0</span></p>
+        <canvas id="board"></canvas>
+        <script src="snake.js"></script>
+      
+    </body>
+</html>
+
+

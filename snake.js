@@ -24,7 +24,7 @@ var specialBlockX;
 var specialBlockY;
 var specialBlockActive = false;
 var specialBlockTimer;
-var specialBlockTimerStartTime; // 记录特殊方块生成的时间
+var specialBlockTimerStartTime; // Record the time when a special block is generated
 
 
 window.onload = function() {
@@ -42,8 +42,8 @@ window.onload = function() {
     });
     document.addEventListener("keyup", function(e) {
         if (e.code === "Space") {
-            e.preventDefault(); // 阻止默认行为
-            togglePause(); // 按下空格键时切换暂停状态
+            e.preventDefault(); // Block default behavior
+            togglePause(); // Toggle paused state when pressing spacebar
         } else {
             changeDirection(e);
         }
